@@ -18,7 +18,7 @@ html, body {
 }
 
 html {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 body {
@@ -60,7 +60,7 @@ a:hover { text-decoration: underline; }
 }
 
 .brand {
-  font-size: 1.5rem;
+  font-size: 1.65rem;
   font-weight: 300;
   color: var(--text);
 }
@@ -77,7 +77,7 @@ nav ul {
 
 nav a {
   color: var(--text);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
 }
 
 nav a.active,
@@ -91,7 +91,7 @@ nav a:hover {
 }
 
 h1 {
-  font-size: 2.15rem;
+  font-size: 2.4rem;
   font-weight: 700;
   margin: 0 0 0.25rem;
 }
@@ -99,16 +99,16 @@ h1 {
 .subtitle {
   color: var(--muted);
   margin: 0 0 1.5rem;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.55rem;
   margin: 1.75rem 0 0.75rem;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 1.25rem 0 0.5rem;
 }
 
@@ -161,8 +161,8 @@ th { font-weight: 700; }
 }
 
 .card img {
-  width: 90px;
-  height: 135px;
+  width: 128px;
+  height: 192px;
   object-fit: cover;
   object-position: top center;
   border-radius: 6px;
@@ -171,13 +171,13 @@ th { font-weight: 700; }
 
 .card h4 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.15rem;
 }
 
 .card p {
   margin: 0.2rem 0 0;
   color: var(--muted);
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 footer {
