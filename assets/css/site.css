@@ -96,10 +96,71 @@ h1 {
   margin: 0 0 0.25rem;
 }
 
-.subtitle {
-  color: var(--muted);
-  margin: 0 0 1.5rem;
-  font-size: 1.15rem;
+/* Hero banner (home page) */
+.hero {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background:
+    radial-gradient(ellipse 65% 70% at 50% 0%, rgba(181, 9, 172, 0.07), transparent 70%),
+    #ffffff;
+  border-bottom: 1px solid var(--divider);
+  padding: clamp(2.4rem, 7vw, 3.4rem) 1.2rem clamp(2.2rem, 6vw, 3rem);
+}
+
+.hero-grid {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content { position: relative; }
+
+.hero h1 {
+  margin: 0 0 0.3rem;
+  color: #17131f;
+  font-size: clamp(2.1rem, 7vw, 3.1rem);
+  letter-spacing: 0.03em;
+}
+
+.hero-subtitle {
+  margin: 0 auto;
+  max-width: 40em;
+  color: #6f6880;
+  font-size: clamp(0.95rem, 2.8vw, 1.18rem);
+}
+
+.hero-loop {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: clamp(0.5rem, 2.5vw, 1.1rem);
+  margin-top: clamp(1.2rem, 3.5vw, 1.7rem);
+}
+
+.hero-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.hero-step svg { display: block; }
+
+.hero-step small {
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8a8298;
+}
+
+.hero-arrow {
+  color: var(--theme);
+  font-size: 1.05rem;
+  line-height: 1;
+  padding-top: 8px;
 }
 
 h2 {
