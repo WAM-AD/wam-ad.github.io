@@ -163,6 +163,14 @@ h1 {
   padding-top: 8px;
 }
 
+.announcement {
+  border-left: 4px solid var(--theme);
+  background: rgba(181, 9, 172, 0.06);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  margin: 0 0 1.25rem;
+}
+
 h2 {
   font-size: 1.55rem;
   margin: 1.75rem 0 0.75rem;
